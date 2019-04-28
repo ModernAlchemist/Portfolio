@@ -1,0 +1,127 @@
+body{
+    background: url('./pic2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#menu{
+    background: url('https://vectr.com/tristan_n/aKOVhhkeP.svg?width=640&height=640&select=aKOVhhkePpage0');
+    background-size: auto 98%;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    height: 50em;
+    width: 60em;
+    margin: 0 auto;
+}
+.headers {
+    border: solid 4px red;
+    position: relative;
+    height: 6.45em;
+    width: 13.5em;
+    text-align: center;
+}
+.headers>div:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.headers>div {
+    font-size: 2em;
+    font-family: 'Nova Flat';
+}
+.headers:hover {
+    background-color: red;
+    color: #f5f5f5;
+    cursor:pointer;
+}
+
+
+#about{
+    top: 68.4%;
+    left: 37.2%;
+}
+#skills{
+    top: 68.4%;
+    left: 1%;
+}
+#portfolio {
+    top: 40.5%;
+    left: 73%;
+}
+#mainLogo{
+    background: url('https://vectr.com/tristan_n/aKOVhhkeP.svg?width=275&height=275&select=c1x9roTx53');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 18.3em;
+    width: 22em;
+    position: relative;
+    top: -42%;
+    left: 32%;
+}
+#github {
+    border: solid 3px black;
+
+    height: 1.1em;
+    width: 1.2em;
+    top: -49%;
+    left: 73.9%;
+    font-size: 4.5em;
+    padding-top: 0.1em;
+
+}
+#github:hover{
+    background-color: transparent;
+    color: red;
+}
+
+#resumeSVG {
+    position: relative;
+    background: url('https://vectr.com/tristan_n/aKOVhhkeP.svg?width=90&height=90&select=dTLLvtdMA');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 99% 99%;
+    width: 6em;
+    height: 6em;
+
+    padding-top: 1.6em;
+    top: -25%;
+    left: 38.7%;
+}
+#resume {
+
+    border-radius: 100%;
+    height: 4em;
+    width: 4em;
+    margin: 0 auto;
+}
+
+#skills {
+
+}
+#linkedin {
+    border: solid 3px black;
+    border-radius: 100%;
+    font-size: 3em;
+    height: 1.3em;
+    width: 1.5em;
+    padding-top: 0.2em;
+    top: -73.3%;
+    left: 13.2%;
+}
+#linkedin:hover {
+    background: none;
+    color: red;
+}
+
+#skillsSection {
+    display: none;
+    border: solid 3px black;
+    height: 60%;
+    background-color: #f5f5f5;
+}
+.noAnimation {
+    animation: none;
+}
